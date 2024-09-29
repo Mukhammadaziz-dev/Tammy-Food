@@ -1,0 +1,154 @@
+.site_header {
+    background: #FFFBF3;
+    padding-bottom: 100px;
+}
+.site_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.site_navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.site_navbar ul li {
+    cursor: pointer;
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.6px;
+    transition: all ease 0.7s;
+    position: relative;
+}
+.site_navbar ul li:hover {
+    color: #FCC647;
+
+}
+.site_navbar ul li:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #FCC647;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.site_navbar ul li:hover:before {
+    opacity: 1;
+    transform: scaleX(1.2);
+}
+.logo {
+    color: #3C3C3C;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    cursor: pointer;
+}
+.logo span {
+    color: #FCC647;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left {
+    width: 550px;
+}
+.topName {
+    color: #F4B41B;
+    font-size: 16.63px;
+    font-weight: 600;
+    line-height: 14.25px;
+    width: 148px;
+    height: 39px;
+    background: #FFF2D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.left h2 {
+    color: #3C3C3C;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.84px;
+}
+.left h2 span {
+    color: #F4B41B;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.84px;
+    margin-top: 13px;
+}
+.left_text {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 470px;
+    margin-top: 15px;
+}
+.left_btn_box {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+.getStarted {
+    border: none;
+    color: #FFFFFF;
+    background: #F4B41B;
+    width: 146px;
+    height: 52px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 22.99px;
+}
+.getStarted:hover {
+    transform: scale(1.1);
+    background: #3C3C3C;
+    color: #FCC647;
+}
+.play {
+    width: 261px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    background: #FFFFFF;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 32px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.play:hover {
+    transform: scale(1.1);
+    background: #3C3C3C;
+    color: #FCC647;
+}
+.right {
+    animation: FoodAnimate 30s infinite linear;
+}
+
+@keyframes FoodAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

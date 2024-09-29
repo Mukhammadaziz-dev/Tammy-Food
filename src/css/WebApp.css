@@ -1,0 +1,69 @@
+.WebApp {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.webAppLeft {
+    width: 470px;
+}
+.webAppLeft h3 {
+    color: #3C3C3C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+}
+.webAppLeft p {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;    
+}
+.downloadBtn {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.downloadBtn button {
+    border: none;
+    border-radius: 5px;
+    background: #3C3C3C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 139px;
+    height: 45px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.downloadBtn button:hover {
+    transform: scale(1.1);
+    background: #FEB918;
+    color: #FFFFFF;
+} 
+.downloadBtn div {
+    flex-wrap: wrap;
+}
+.downloadBtn div {
+    font-size: 17px;
+}
+.downloadBtn div span {
+    font-size: 9px;
+    display: block;
+}
+.webAppRight {
+    width: 575px;
+    height: 575px;
+    background: #FEB918;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/phone_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-position-x: center;
+}

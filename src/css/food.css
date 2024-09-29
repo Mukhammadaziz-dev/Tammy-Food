@@ -1,0 +1,130 @@
+.food_title_box {
+    margin-top: 60px;
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food_title_box h2 {
+    color: #3C3C3C;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+}
+.food_title_box p {
+    color: #667085;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.allFoodBox {
+    margin-top: 81px;
+}
+.allFoodBox ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.allFoodBox ul li {
+    width: 273px;
+    text-align: center;
+    padding: 30px;
+    border: 0.7px solid #70707033;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.allFoodBox ul li:hover{
+    border: 1px solid #F9A755;
+    transform: scale(1.1);
+}
+.allFoodBox ul li h4{
+    color: #3C3C3C;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.36px;
+    text-align: left;
+}
+.allFoodBox ul li p {
+    text-align: left;
+    width: 227px;
+    color: #667085;
+}
+.costAddBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.costAddBox p {
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.97px;
+}
+.btnBox {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.addCarzunu {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    background: #F24D21;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.foodLink {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #3C3C3C;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.addCarzunu:hover {
+    transform: scale(1.1);
+}
+.foodLink:hover {
+    transform: scale(1.1);
+}
+.scrol_box {
+    margin-top: 90px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.scrol_box ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.scrol_box ul li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #EAECED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.number:hover {
+    background: #FEB918;
+    color: #FFFFFF;
+    border: 1px solid #FEB918;
+}

@@ -1,0 +1,78 @@
+.title_box {
+    margin-top: 100px;
+    text-align: center;
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title_box h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+    color: #3C3C3C;
+}
+.title_box p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #667085;
+}
+.companets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.companets div {
+    text-align: center;
+    margin-top: 50px;
+}
+.companets .second{
+    margin-top: 15npm0px;
+}
+.icon1 {
+    width: 88px;
+    height: 88px;
+    background: #335DFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon2 {
+    width: 88px;
+    height: 88px;
+    background: #F6CA00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 10px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon3 {
+    width: 88px;
+    height: 88px;
+    background: #0BD28E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.companets div h4 {
+    margin-top: 40px;
+    color: #3C3C3C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.companets div p {
+    color: #667085;
+}

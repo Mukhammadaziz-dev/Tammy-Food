@@ -1,0 +1,179 @@
+.emailNumber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 100px 0px #0000003D;
+    padding: 0 100px;
+    border-radius: 30px;
+    margin-top: 156px;
+    position: relative;
+    transform: translateY(100px);
+}
+.emailNumber span {
+    display: flex;
+    width: 4px;
+    height: 117px;
+    background: #E6E6E6;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.email img {
+    background: #FEB918;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
+}
+.email h2 {
+    color: #232233;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+.phoneNumber {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.phoneNumber img {
+    background: #FEB918;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 30px;
+}
+.phoneNumber h2 {
+    color: #232233;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+.site_footer {
+    width: 100%;
+    background: #232233;
+    color: #FFFFFF;
+    padding: 243px 0 52px;
+}
+.footer_container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.logoBox {
+    width: 310px;
+}
+.logoBox p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.iconBox {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.logoBox .logo {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.iconBox span {
+    display: flex;
+    width: 1px;
+    height: 20px;
+    background: #FFFFFF;
+}
+.iconBox i {
+    color: #FFFFFF;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.iconBox i:hover {
+    transform: scale(1.1);
+    color: #FEB918;
+}
+.linkBox h2{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+}
+.linkBox ul {
+    line-height: 32px;
+    text-align: center;
+}
+.linkBox ul li {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    position: relative;
+}
+.linkBox ul li:hover {
+    color: #FCC647;
+
+}
+.linkBox ul li:before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #FCC647;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.linkBox ul li:hover:before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+.letterBox h2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+}
+.letterBox p {
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.input_box {
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    margin-top: 33px;
+    padding: 0 0 0 13px;
+    border-radius: 5px;
+}
+.input_box input {
+    border: none;
+    width: 300px;
+    outline: none;
+    font-size: 18px;
+}
+.input_box button {
+    width: 52px;
+    height: 46px;
+    background: #FEB918;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}

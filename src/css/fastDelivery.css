@@ -1,0 +1,41 @@
+.fastDelivery {
+    width: 100%;
+    background: #FFFBF3;
+    margin-top: 115px;
+}
+.fastDelivery .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FastDeliveryRight {
+    width: 550px;
+}
+.FastDeliveryRight h2 {
+    margin-top: 13px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.88px;
+    color: #535353;
+}
+.FastDeliverytext {
+    color: #667085;
+    width: 500px;
+    margin-top: 30px;
+}
+.FastDeliveryBtn {
+    width: 121px;
+    height: 44px;
+    border: none;
+    background: #FCC647;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.FastDeliveryBtn:hover {
+    transform: scale(1.1);
+    background: #3C3C3C;
+    color: #FCC647;
+}
